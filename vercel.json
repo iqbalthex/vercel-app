@@ -1,8 +1,8 @@
 {
   "version": 2,
   
-  "buildCommand": "echo \"build bro\"",
-  "installCommand": "echo \"install bro\" && pnpm deploy",
+  "buildCommand": "echo 'build bro'",
+  "installCommand": "echo 'install bro' && pnpm deploy",
   "outputDirectory": "build",
   "routes": [
     {
