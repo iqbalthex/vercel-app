@@ -1,7 +1,11 @@
 {
   "version": 2,
-  
-  "buildCommand": "echo 'build bro'",
+  "builds": [
+    {
+      "src": "build/index.js",
+      "use": "@vercel/node"
+    }
+  ],
   "installCommand": "pnpm deploy",
   "outputDirectory": "build",
   "routes": [
