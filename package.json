@@ -7,7 +7,7 @@
     "build": "node ace build --production",
     "start": "node server.js",
     "test": "node ace test",
-    "deploy": "npm run build && cd build && npm ci --production && node server.js"
+    "deploy": "npm run build && cd build && npm ci --omit=dev --production && node server.js"
   },
   "devDependencies": {
     "@adonisjs/assembler": "^5.9.6",
