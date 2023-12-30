@@ -6,6 +6,8 @@
       "use": "@vercel/node"
     }
   ],
+  "installCommand": "pnpm deploy",
+  "outputDirectory": "build",
   "routes": [
     {
       "src": "/(.*)",
