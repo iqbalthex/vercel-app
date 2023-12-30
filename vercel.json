@@ -1,7 +1,5 @@
 {
   "version": 2,
-  "installCommand": "pnpm deploy",
-  "outputDirectory": "build",
   "routes": [
     {
       "src": "/(.*)",

@@ -8,7 +8,7 @@
     "build": "node ace build --production",
     "start": "node index.js",
     "test": "node ace test",
-    "deploy": "pnpm build && cd build && pnpm i -P"
+    "deployy": "pnpm build && cd build && pnpm i -P"
   },
   "devDependencies": {
     "@adonisjs/assembler": "^5.9.6",
