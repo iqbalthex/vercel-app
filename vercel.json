@@ -2,7 +2,7 @@
   "version": 2,
   
   "buildCommand": "echo 'build bro'",
-  "installCommand": "echo 'install bro' && pnpm deploy",
+  "installCommand": "pnpm deploy",
   "outputDirectory": "build",
   "routes": [
     {
